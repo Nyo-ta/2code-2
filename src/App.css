@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.goal-card {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.goal-card h3 {
+  margin: 0 0 10px 0;
+}
+
+.goal-card p {
+  margin: 3px 0;
+}
+
+.goal-card a,
+.goal-card button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.goal-card button:hover,
+.goal-card a:hover {
+  background-color: #ddd;
+}
+
+.goal-form,
+.deposit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.goal-form input,
+.deposit-form input,
+.deposit-form select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.goal-form button,
+.deposit-form button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.goal-form button:hover,
+.deposit-form button:hover {
+  background-color: #0056b3;
+}
+
+.overview {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
